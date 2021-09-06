@@ -1,4 +1,4 @@
-type RepositoryItemProps = {
+interface RepositoryItemProps {
   repository: {
     name: string;
     description: string;
